@@ -17,5 +17,5 @@ export class Course{
     cover: string
 
     @arrayProp({itemsRef: 'Episode'})
-    episodes: Ref<Episode>[]
+    episodes: Ref<'Episode'>[]
 }

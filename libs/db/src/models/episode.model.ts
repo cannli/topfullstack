@@ -7,7 +7,7 @@ import {ApiModelProperty} from "@nestjs/swagger/dist/decorators/api-model-proper
     }
 })
 
-export class Episodes {
+export class Episode {
     //@ApiModelProperty({description: '课程名称'})
     @prop()
     username: string
